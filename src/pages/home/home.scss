@@ -1,0 +1,76 @@
+@import '../../index.scss';
+
+.home__title_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home__title {
+  display: block;
+  text-align: center;
+  margin: 0 0 16px 0;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 75px;
+  color: white;
+
+  @media (max-width: 400px) {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
+.home__subtitle {
+  display: block;
+  max-width: 850px;
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  color: white;
+
+  @media (max-width: 400px) {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+.home__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home__card_container {
+  max-width: 1280px;
+  padding: 48px 56px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  @media (max-width: 780px) {
+    flex-direction: column;
+  }
+}
+
+.home__morebtn {
+  border: 1px solid $black;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  background-color: white;
+  margin-bottom: 70px;
+  
+  &:hover {
+    border-color: $purple;
+    color: $purple;
+  }
+}
+
+.home__morebtn_arrow {
+  margin-left: 12px;
+}

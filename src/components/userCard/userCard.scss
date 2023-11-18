@@ -1,0 +1,46 @@
+@import '../../index.scss';
+
+.card__container {
+  min-width: 305px;
+  box-sizing: border-box;
+  padding: 36px 20px;
+  box-shadow: 0px 0.9960451126098633px 3.984180450439453px 0px #33333326;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card__link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  color: $black;
+  &:hover {
+    color: $purple;
+  }
+}
+
+.card__img {
+  border-radius: 100px;
+}
+
+.card__name {
+  margin: 0;
+  padding: 16px 0;
+}
+
+.card__icon_wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card__icon {
+  height: 14px;
+  width: 12px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $lightgrey;
+  border-radius: 4px;
+}
